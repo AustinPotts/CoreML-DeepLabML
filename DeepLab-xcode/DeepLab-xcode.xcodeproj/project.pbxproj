@@ -14,6 +14,9 @@
 		456DA1BF23CF817800363BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456DA1BE23CF817800363BD9 /* Assets.xcassets */; };
 		456DA1C223CF817800363BD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456DA1C023CF817800363BD9 /* LaunchScreen.storyboard */; };
 		456DA1CA23CF818A00363BD9 /* DeepLabV3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 456DA1C923CF818A00363BD9 /* DeepLabV3.mlmodel */; };
+		456DA1CC23CF822A00363BD9 /* UIImage+Segmentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DA1CB23CF822A00363BD9 /* UIImage+Segmentation.swift */; };
+		456DA1CE23CF825500363BD9 /* GreySegmentFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DA1CD23CF825500363BD9 /* GreySegmentFilter.swift */; };
+		456DA1D023CF82A800363BD9 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 456DA1CF23CF82A800363BD9 /* test.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		456DA1C123CF817800363BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		456DA1C323CF817800363BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		456DA1C923CF818A00363BD9 /* DeepLabV3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DeepLabV3.mlmodel; sourceTree = "<group>"; };
+		456DA1CB23CF822A00363BD9 /* UIImage+Segmentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Segmentation.swift"; sourceTree = "<group>"; };
+		456DA1CD23CF825500363BD9 /* GreySegmentFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreySegmentFilter.swift; sourceTree = "<group>"; };
+		456DA1CF23CF82A800363BD9 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +71,10 @@
 				456DA1BB23CF817700363BD9 /* Main.storyboard */,
 				456DA1BE23CF817800363BD9 /* Assets.xcassets */,
 				456DA1C023CF817800363BD9 /* LaunchScreen.storyboard */,
+				456DA1CF23CF82A800363BD9 /* test.jpg */,
 				456DA1C323CF817800363BD9 /* Info.plist */,
+				456DA1CB23CF822A00363BD9 /* UIImage+Segmentation.swift */,
+				456DA1CD23CF825500363BD9 /* GreySegmentFilter.swift */,
 			);
 			path = "DeepLab-xcode";
 			sourceTree = "<group>";
@@ -131,6 +140,7 @@
 				456DA1C223CF817800363BD9 /* LaunchScreen.storyboard in Resources */,
 				456DA1BF23CF817800363BD9 /* Assets.xcassets in Resources */,
 				456DA1BD23CF817700363BD9 /* Main.storyboard in Resources */,
+				456DA1D023CF82A800363BD9 /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +153,9 @@
 			files = (
 				456DA1BA23CF817700363BD9 /* ViewController.swift in Sources */,
 				456DA1B623CF817700363BD9 /* AppDelegate.swift in Sources */,
+				456DA1CE23CF825500363BD9 /* GreySegmentFilter.swift in Sources */,
 				456DA1B823CF817700363BD9 /* SceneDelegate.swift in Sources */,
+				456DA1CC23CF822A00363BD9 /* UIImage+Segmentation.swift in Sources */,
 				456DA1CA23CF818A00363BD9 /* DeepLabV3.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
